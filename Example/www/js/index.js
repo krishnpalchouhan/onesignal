@@ -50,7 +50,7 @@ var app = {
         // Enable to debug issues.
         // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
 
-        window.plugins.OneSignal.init( "5eb5a37e-b458-11e3-ac11-000c2940e62c",
+        window.plugins.OneSignal.init( "10383672-5a73-4c72-9e5c-f1d0213bce9d",
                                         {googleProjectNumber: "703322744261"},
                                         app.didReceiveRemoteNotificationCallBack);
     },
