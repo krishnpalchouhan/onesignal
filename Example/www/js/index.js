@@ -35,6 +35,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		sendTag();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -51,7 +52,7 @@ var app = {
         // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
 
         window.plugins.OneSignal.init( "10383672-5a73-4c72-9e5c-f1d0213bce9d",
-                                        {googleProjectNumber: "703322744261"},
+                                        {googleProjectNumber: "977668981273"},
                                         app.didReceiveRemoteNotificationCallBack);
     },
     didReceiveRemoteNotificationCallBack : function(jsonData) {
