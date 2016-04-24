@@ -61,8 +61,10 @@ var app = {
     }
 };
 
-function sendTag() {
-    window.plugins.OneSignal.sendTag("PhoneGapKey", "PhoneGapValue");
+function sendTag() 
+alert('s');
+    window.plugins.OneSignal.sendTag("PhoneGapKey", "PhoneGapValue"); 
+alert('s');
 }
 function getIds() {
     window.plugins.OneSignal.getIds(function(ids) {
